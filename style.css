@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0; /* Remove default body margin */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #4a4a4a;
+    margin-top: 0; /* Adjust spacing */
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #5a5a5a;
+    font-size: 1.1em;
+    margin-top: 25px;
+    margin-bottom: 8px; /* Adjust spacing */
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-bottom: 25px; /* Adjust spacing */
+}
+
+button:hover {
+    background-color: #4a54c4;
+}
+
+button:active {
+    transform: scale(0.98); /* Add slight press effect */
+}
+
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+.output-area {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 40px;
+    border: 1px solid #eee; /* Add subtle border */
+}
+
+.transcript {
+    font-size: 1em;
+    color: #333;
+    min-height: 1.2em;
+    line-height: 1.4;
+    margin: 0; /* Remove default paragraph margins */
+    word-wrap: break-word; /* Prevent long text overflow */
+}
+
+.status {
+    margin-top: 30px; /* Adjust spacing */
+    font-style: italic;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Style for when listening */
+button.listening {
+     background-color: #e74c3c; /* Red color */
+}
+button.listening:hover {
+     background-color: #c0392b; /* Darker red on hover */
+}

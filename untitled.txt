@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Assistant</title>
+    <link rel="stylesheet" href="style.css"> <!-- Links to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>AI Voice Assistant</h1>
+
+        <button id="startButton">🎤 Start Listening</button>
+
+        <div class="output-area">
+            <h2>You Said:</h2>
+            <p id="userInput" class="transcript">-</p>
+        </div>
+
+        <div class="output-area">
+            <h2>Assistant Replied:</h2>
+            <p id="assistantOutput" class="transcript">-</p>
+        </div>
+
+        <p id="statusMessage" class="status">Status: Idle</p>
+    </div>
+
+    <script src="script.js"></script> <!-- Links to your JavaScript file -->
+</body>
+</html>
