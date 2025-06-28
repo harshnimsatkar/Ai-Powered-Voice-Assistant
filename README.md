@@ -136,4 +136,4 @@ A web-based AI voice assistant built with Python (Flask) for the backend and HTM
     *   "Goodbye"
 6.  The assistant will process your command, display your speech and its reply, and speak the reply.
 
-## Project File Structure
+
